@@ -1,0 +1,56 @@
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid black;
+}
+
+.navbar-header a.nav-extra {
+  color: black;
+  font-size: 1.8em;
+}
+
+#header-nav{
+  background-color: grey;
+  border:0;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+}
+@media (max-width: 768px){
+  #collapsable-nav{
+  background-color: white;
+  padding: 0;
+}
+}
+
+
+
+#collapsable-nav ul{
+  font-size: 1.2em;
+  text-align: center;
+  background-color: lightgrey;
+  margin: 0;
+}
+
+#collapsable-nav a{
+  border: 1px solid black;
+  color: black;
+}
+
+#collapsable-nav a:hover{
+  color: grey;
+}
+
+/********** Base styles **********/
+ * {
+   box-sizing: border-box;
+   font-family: Helvetica;
+ }
+ 
+ .food-description {
+  position: relative;
+  background-color: grey;
+  padding: 10px;
+  margin:20px;
+ }
+
+ 
+ 
+ 
